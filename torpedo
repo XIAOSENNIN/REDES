@@ -4,3 +4,40 @@ Hosts: el término hosts se refiere específicamente a los dispositivos de la re
   Algunos hosts también se llaman clientes
   
 Servidores: Los servidores son computadoras con software que les permite proporcionar información, como correo electrónico o páginas web, a otros dispositivos finales de la red.
+
+Entre pares: muchas PC funcionan como servidores y clientes en la red. Este tipo de red se denomina red entre pares.
+  Las ventajas de las redes entre pares:
+	Facil de configurar
+	menos complejo
+	menor costo
+	se pueden utilizar para tareas sencillas
+
+Desventajas:
+	la administracion no esta centralizada
+	no son tan seguras
+	no son escalables
+	pueden funcionar como cliente y como servidores, lentificar rendimiento.
+  
+Dispositivos finales
+  Los dispositivos de red con los que las personas están más familiarizadas se denominan dispositivos finales. 
+	Para distinguir un dispositivo final de otro, cada dispositivo final de una red tiene una dirección. 
+	Cuando un dispositivo final inicia la comunicación, utiliza la dirección del dispositivo final de destino para especificar dónde entregar el mensaje.
+  Un terminal es el origen o el destino de un mensaje transmitido a través de la red.
+
+Dispositivos intermediarios
+	Los dispositivos intermedios conectan los dispositivos finales individuales a la red.
+	Pueden conectar múltiples redes individuales para formar una red interna. 
+	Los dispositivos intermedios proporcionan conectividad y garantizan el flujo de datos en toda la red.
+	
+	- Swich de multicapa
+	- Swich LAN
+	- Router inalambrico
+	- Router
+
+Medios de red
+	La comunicación se transmite a través de una red en los medios. El medio proporciona el canal por el cual viaja el mensaje desde el origen hasta el destino.
+	Las redes modernas utilizan principalmente tres tipos de medios para interconectar dispositivos:
+
+	Hilos metálicos dentro de cables (cobre) - Los datos se codifican en impulsos eléctricos.
+	Fibras de vidrio o plástico (cable de fibra óptica) - Los datos se codifican como pulsos de luz.
+	Transmisión inalámbrica - Los datos se codifican a través de la modulación de frecuencias específicas de ondas electromagnéticas.
