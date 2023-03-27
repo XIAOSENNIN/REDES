@@ -1,0 +1,6 @@
+Hosts: el término hosts se refiere específicamente a los dispositivos de la red a los que se asigna un número para fines de comunicación.
+  Todas las computadoras que están conectadas a una red y participan directamente en la comunicación de la red se clasifican como hosts. 
+  Los hosts se pueden llamar dispositivos finales.
+  Algunos hosts también se llaman clientes
+  
+Servidores: Los servidores son computadoras con software que les permite proporcionar información, como correo electrónico o páginas web, a otros dispositivos finales de la red.
