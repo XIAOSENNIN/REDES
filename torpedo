@@ -19,10 +19,10 @@ Desventajas:
 	pueden funcionar como cliente y como servidores, lentificar rendimiento.
   
 Dispositivos finales
-  Los dispositivos de red con los que las personas están más familiarizadas se denominan dispositivos finales. 
+  	Los dispositivos de red con los que las personas están más familiarizadas se denominan dispositivos finales. 
 	Para distinguir un dispositivo final de otro, cada dispositivo final de una red tiene una dirección. 
 	Cuando un dispositivo final inicia la comunicación, utiliza la dirección del dispositivo final de destino para especificar dónde entregar el mensaje.
-  Un terminal es el origen o el destino de un mensaje transmitido a través de la red.
+ 	Un terminal es el origen o el destino de un mensaje transmitido a través de la red.
 
 Dispositivos intermediarios
 	Los dispositivos intermedios conectan los dispositivos finales individuales a la red.
@@ -34,6 +34,7 @@ Dispositivos intermediarios
 	- Router inalambrico
 	- Router
 
+-----------------------------------------------------------------------
 Medios de red
 	La comunicación se transmite a través de una red en los medios. El medio proporciona el canal por el cual viaja el mensaje desde el origen hasta el destino.
 	Las redes modernas utilizan principalmente tres tipos de medios para interconectar dispositivos:
@@ -41,3 +42,67 @@ Medios de red
 	Hilos metálicos dentro de cables (cobre) - Los datos se codifican en impulsos eléctricos.
 	Fibras de vidrio o plástico (cable de fibra óptica) - Los datos se codifican como pulsos de luz.
 	Transmisión inalámbrica - Los datos se codifican a través de la modulación de frecuencias específicas de ondas electromagnéticas.
+	
+Topologia y representaciones de red.
+	La capacidad de reconocer las representaciones lógicas de los componentes físicos de red se denomina diagrama de topología.
+	
+	Además de estas representaciones, se utiliza una terminología especializada para describir cómo cada uno de estos dispositivos y medios se conectan entre sí:
+
+	Tarjeta de interfaz de red (Network Interface Card) (NIC) - Una NIC conecta físicamente el dispositivo final a la red.
+	Puerto físico - Un conector o conexión en un dispositivo de red donde se conectan los medios a un terminal u otro dispositivo de red.
+	Interfaz - Puertos especializados en un dispositivo de red que se conecta a redes individuales. Debido a que los routers conectan redes, los puertos en un 	   router se denominan interfaces de red.
+
+Diagramas de topologías físicas.
+	Los diagramas de topología física ilustran la ubicación física de los dispositivos intermedios y la instalación del cable
+	
+Diagramas de topologías lógicas
+	Los diagramas de topología lógica ilustran los dispositivos, los puertos y el esquema de direccionamiento de la red
+	
+--------------------------------------------------------------------------
+Tipos comunes de redes
+
+LAN y WAN
+	Las infraestructuras de red pueden variar en gran medida en términos de:
+
+	El tamaño del área que abarcan.
+	La cantidad de usuarios conectados.
+	La cantidad y los tipos de servicios disponibles.
+	El área de responsabilidad
+	
+Una LAN es una infraestructura de red que proporciona acceso a usuarios y dispositivos finales en un área geográfica pequeña.
+Normalmente, una LAN se utiliza en un departamento dentro de una empresa, un hogar o una red de pequeñas empresas.
+
+Una WAN es una infraestructura de red que proporciona acceso a otras redes en un área geográfica amplia, que generalmente es propiedad y está administrada por una corporación más grande o un proveedor de servicios de telecomunicaciones.
+
+LAN
+Una LAN es una infraestructura de la red que abarca un área geográfica pequeña. Las LANs tienen características específicas:
+
+Las LANs interconectan terminales en un área limitada, como una casa, un lugar de estudios, un edificio de oficinas o un campus.
+Por lo general, la administración de las LAN está a cargo de una única organización o persona. El control administrativo se aplica a nivel de red y rige las políticas de seguridad y control de acceso.
+Las LANs proporcionan ancho de banda de alta velocidad a dispositivos finales internos y dispositivos intermedios, como se muestra en la figura.
+
+WAN es una infraestructura de la red que abarca un área geográfica extensa. Las WAN generalmente son administradas por proveedores de servicios (SP) o proveedores de servicios de Internet (ISP).
+
+Las WANs tienen características específicas:
+
+Las WAN interconectan LAN a través de áreas geográficas extensas, por ejemplo, entre ciudades, estados, provincias, países o continentes.
+Por lo general, la administración de las WAN está a cargo de varios proveedores de servicios.
+Normalmente, las WAN proporcionan enlaces de velocidad más lenta entre redes LAN.
+
+El Internet
+Internet es una colección global de redes interconectadas (internetworks o internet para abreviar)
+
+Intranets y Extranets
+
+El término intranet se utiliza para referirse a la conexión privada de LAN y WAN que pertenecen a una organización. Una intranet está diseñada para que solo puedan acceder a ella los miembros y empleados de la organización, u otras personas autorizadas.
+
+Extranet para proporcionar acceso seguro a las personas que trabajan para otra organización, pero requieren datos de la empresa. Aquí hay algunos ejemplos de extranets:
+
+Una empresa que proporciona acceso a proveedores y contratistas externos.
+Un hospital que proporciona un sistema de reservas a los médicos para que puedan hacer citas para sus pacientes.
+Una secretaría de educación local que proporciona información sobre presupuesto y personal a las escuelas del distrito.
+
+-------------------------------
+
+Conexiones a Internet
+
