@@ -50,7 +50,7 @@ Topologia y representaciones de red.
 
 	Tarjeta de interfaz de red (Network Interface Card) (NIC) - Una NIC conecta físicamente el dispositivo final a la red.
 	Puerto físico - Un conector o conexión en un dispositivo de red donde se conectan los medios a un terminal u otro dispositivo de red.
-	Interfaz - Puertos especializados en un dispositivo de red que se conecta a redes individuales. Debido a que los routers conectan redes, los puertos en un 	   router se denominan interfaces de red.
+	Interfaz - Puertos especializados en un dispositivo de red que se conecta a redes individuales. Debido a que los routers conectan redes, los puertos en un router se denominan interfaces de red.
 
 Diagramas de topologías físicas.
 	Los diagramas de topología física ilustran la ubicación física de los dispositivos intermedios y la instalación del cable
@@ -106,3 +106,148 @@ Una secretaría de educación local que proporciona información sobre presupues
 
 Conexiones a Internet
 
+Conexiones a Internet domésticas y de oficinas pequeñas:
+Cable - Típicamente ofrecido por los proveedores de servicios de televisión por cable, la señal de datos de Internet se transmite en el mismo cable que ofrece la televisión por cable. Proporciona un gran ancho de banda, alta disponibilidad y una conexión a Internet siempre activa.
+
+DSL - Las líneas de suscriptor digital también proporcionan un gran ancho de banda, alta disponibilidad y una conexión permanente a Internet. DSL se transporta por la línea de teléfono. En general los usuarios de oficinas en el hogar o pequeñas se conectan mediante una línea de suscriptor digital asimétrica (ADSL), esto implica que la velocidad de descarga es mayor que la velocidad de carga.
+
+Celular - El acceso a internet celular utiliza una red de telefonía celular para conectarse. En cualquier lugar donde tenga cobertura de telefonía móvil, puede tener acceso a Internet. El rendimiento está limitado por las capacidades del teléfono y la torre celular a la que está conectado.
+
+Satelital - La disponibilidad de acceso a internet satelital es un beneficio en aquellas áreas que de otra manera no tendrían conectividad a internet. Las antenas parabólicas requieren una línea de vista despejada al satélite.
+
+Telefonía por Dial-up - Es una opción de bajo costo que funciona con cualquier línea telefónica y un módem. El ancho de banda que proporciona una conexión por módem, conexión por dial-up es bajo y, por lo general, no es suficiente para trasferencias de datos masivas, si bien es útil para acceso móvil durante viajes.
+
+Conexiones a Internet empresariales:
+Líneas arrendadas dedicadas - Las líneas arrendadas son circuitos reservados dentro de la red del proveedor de servicios que conectan oficinas separadas geográficamente para redes privadas de voz y / o datos. Los circuitos se alquilan a una tasa mensual o anual.
+
+Metro Ethernet - Esto a veces se conoce como Ethernet WAN. En este módulo, nos referiremos a él como Metro Ethernet. Metro ethernets extienden la tecnología de acceso LAN a la WAN. Ethernet es una tecnología LAN que analizará en un capítulo más adelante.
+
+DSL empresarial - El servicio de DSL empresarial está disponible en diversos formatos. Una opción muy utilizada es la línea de suscriptor digital simétrica (SDSL), que es similar a la versión de DSL para el consumidor, pero proporciona las mismas velocidades de subida y descarga.
+
+Satelital - El servicio satelital puede proporcionar una conexión cuando una solución por cable no está disponible.
+
+La red convergente
+Redes separadas tradicionales
+
+Piense en una escuela construida hace cuarenta años. En ese entonces, las aulas contaban con conexiones por cable para la red de datos, la red telefónica y la red de vídeo para los televisores. Estas redes separadas no pueden comunicarse entre sí. Cada red utilizaba tecnologías diferentes para transportar la señal de comunicación. Cada red tenía su propio conjunto de reglas y estándares para asegurar una comunicación satisfactoria. Múltiples servicios se ejecutaron en múltiples redes.
+
+Redes convergentes
+
+Hoy, las redes separadas de datos, telefonía y vídeo están convergiendo. A diferencia de las redes dedicadas, las redes convergentes pueden transmitir datos, voz y vídeo entre muchos tipos diferentes de dispositivos en la misma infraestructura de red. Esta infraestructura de red utiliza el mismo conjunto de reglas, acuerdos y estándares de implementación. Las redes de datos convergentes transportan servicios múltiples en una red.
+
+-----------------------------
+
+Arquitectura de red
+
+	hay cuatro características básicas que los arquitectos de redes deben abordar para cumplir con las expectativas del usuario:
+
+	Tolerancia a fallas
+	Escalabilidad
+	Calidad de servicio (QoS)
+	Seguridad
+	
+Tolerancia a fallas
+
+Una red tolerante a fallas es aquella que limita la cantidad de dispositivos afectados durante una falla. Está construido para permitir una recuperación rápida cuando se produce una falla de este tipo. Estas redes dependen de varias rutas entre el origen y el destino del mensaje. Si falla una ruta, los mensajes se pueden enviar inmediatamente por otro enlace. El hecho de que haya varias rutas que conducen a un destino se denomina redundancia.
+
+
+Escalabilidad
+Una red escalable se expande rápidamente para admitir nuevos usuarios y aplicaciones. Lo hace sin degradar el rendimiento de los servicios a los que están accediendo los usuarios existentes. En la figura, se muestra cómo puede agregarse una red nueva a una red existente con facilidad. Además, las redes son escalables porque los diseñadores siguen los estándares y protocolos aceptados. Esto permite a los proveedores de software y hardware centrarse en mejorar los productos y servicios sin tener que diseñar un nuevo conjunto de reglas para operar dentro de la red.
+
+Calidad de servicio
+La calidad de servicio (QoS) es un requisito cada vez más importante para las redes hoy en día. Las nuevas aplicaciones disponibles para los usuarios en internetworks, como las transmisiones de voz y de vídeo en vivo generan expectativas más altas sobre la calidad de los servicios que se proporcionan.
+A medida que el contenido de datos, voz y vídeo sigue convergiendo en la misma red, QoS se convierte en un mecanismo principal para administrar la congestión y garantizar el envío confiable de contenido a todos los usuarios.
+Con una política de QoS, el router puede administrar el flujo de datos y el tráfico de voz, dando prioridad a las comunicaciones de voz si la red se congestiona
+
+Seguridad de la red
+La infraestructura de red, los servicios y los datos contenidos en los dispositivos conectados a la red son activos comerciales y personales muy importantes. Los administradores de red deben abordar dos tipos de problemas de seguridad de red: seguridad de la infraestructura de red y seguridad de la información.
+
+Los administradores de red también deben proteger la información contenida en los paquetes que se transmiten a través de la red y la información almacenada en los dispositivos conectados a la red. Para alcanzar los objetivos de seguridad de la red, hay tres requisitos principales
+
+Confidencialidad - La confidencialidad de los datos se refiere a que solamente los destinatarios deseados y autorizados pueden acceder a los datos y leerlos.
+Integridad - Integridad de datos significa tener la seguridad de que la información no se va a alterar en la transmisión, del origen al destino.
+Disponibilidad - Significa tener la seguridad de acceder en forma confiable y oportuna a los servicios de datos para usuarios autorizados.
+
+
+---------------------- tendencias de red
+
+A medida que se lanzan al mercado nuevas tecnologías y dispositivos para usuarios finales, las empresas y los consumidores deben continuar adaptándose a este entorno en constante evolución. Existen varias tendencias de redes que afectan a organizaciones y consumidores:
+
+Traiga su propio dispositivo (BYOD)
+Colaboración en línea
+Comunicaciones de video
+Computación en la nube
+
+Traiga su propio dispositivo (BYOD)
+El concepto de cualquier dispositivo, para cualquier contenido, de cualquier manera, es una tendencia global importante que requiere cambios significativos en la forma en que usamos los dispositivos y los conectamos de manera segura a las redes.
+
+BYOD permite a los usuarios finales la libertad de usar herramientas personales para acceder a la información y comunicarse a través de una red de negocios o campus.
+BYOD significa que se puede usar cualquier dispositivo, de cualquier persona, en cualquier lugar.
+
+Colaboración en línea
+La colaboración se define como “el acto de trabajar con otras personas en un proyecto conjunto”.
+La Colaboración es una prioridad crítica y estratégica que las organizaciones están utilizando para seguir siendo competitivas. La colaboración también es una prioridad en la educación.
+
+Comunicaciones de video
+
+El video se usa para comunicaciones, colaboración y entretenimiento. Las videollamadas se realizan desde y hacia cualquier persona con conexión a Internet, independientemente de dónde se encuentren.
+La videoconferencia es una herramienta poderosa para comunicarse con otros, tanto local como globalmente. A medida que las organizaciones se extienden más allá de los límites geográficos y culturales, el vídeo se convierte en un requisito crítico para una colaboración eficaz.
+
+Computación en la nube
+
+La computación en la nube nos permite almacenar archivos personales, incluso hacer copias de seguridad de una unidad completa en servidores a través de Internet. Se puede acceder a aplicaciones como procesamiento de texto y edición de fotos usando la nube.
+Por motivos de seguridad, fiabilidad y tolerancia a fallos, los proveedores de nube suelen almacenar datos en centros de datos distribuidos. En lugar de almacenar todos los datos de una persona u organización en un centro de datos, se almacenan en varios centros de datos en diferentes ubicaciones.
+Existen cuatro tipos principales de nubes:
+	nubes públicas, 
+	nubes privadas, 
+	nubes híbridas y 
+	nubes comunitarias
+
+Tendencias tecnológicas en el hogar
+La tecnología inteligente para el hogar se integra en los electrodomésticos de todos los días, que luego pueden conectarse con otros dispositivos para hacer que los electrodomésticos sean más "inteligentes" o automatizados.
+La tecnología de hogar inteligente se está desarrollando actualmente para todas las habitaciones dentro de una casa. La tecnología inteligente para el hogar se volverá más común a medida que se expandan las redes domésticas y la tecnología de Internet de alta velocidad.
+
+Redes powerline
+Las redes Powerline para redes domésticas utilizan el cableado eléctrico existente para conectar dispositivos
+Mediante un adaptador estándar de línea eléctrica, los dispositivos pueden conectarse a la LAN donde haya un tomacorriente.
+La red Powerline es especialmente útil cuando los puntos de acceso inalámbrico no pueden llegar a todos los dispositivos en el hogar. La red Powerline no es un sustituto del cableado dedicado en redes de datos. Sin embargo, es una alternativa cuando los cables de red de datos o las comunicaciones inalámbricas no son posibles o efectivas.
+
+Banda ancha inalámbrica
+En muchas áreas donde el cable y el DSL no están disponibles, es posible que la conexión inalámbrica se utilice para conectarse a Internet.
+
+Proveedor de servicios de Internet inalámbrico
+
+El proveedor de servicios de Internet inalámbrico (WISP) es un ISP que conecta a los suscriptores a un punto de acceso designado o una zona activa mediante tecnologías inalámbricas similares a las que se encuentran en las redes de área local inalámbrica (WLAN). Los WISP se encuentran con mayor frecuencia en entornos rurales donde los servicios de cable o DSL no están disponible
+
+Servicio de banda ancha inalámbrica
+Se instala una antena fuera del hogar, que proporciona conectividad inalámbrica o por cable a los dispositivos en el hogar. En muchas zonas, la banda ancha inalámbrica doméstica compite directamente con los servicios de DSL y cable.
+
+------------------------------------------------
+Seguridad
+La seguridad de la red es una parte integral de la red informática, independientemente de si la red está en un hogar con una sola conexión a Internet o es una corporación con miles de usuarios. La seguridad de la red debe tener en cuenta el entorno, así como las herramientas y requisitos de la red. Debe ser capaz de proteger los datos al tiempo que permite la calidad de servicio que los usuarios esperan de la red.
+
+Asegurar una red implica protocolos, tecnologías, dispositivos, herramientas y técnicas para proteger los datos y mitigar las amenazas. Los vectores de amenazas pueden ser externos o internos. Muchas amenazas de seguridad de redes externas se originan hoy en Internet.
+
+Existen varias amenazas externas comunes a las redes:
+
+Virus, gusanos y caballos de Troya - Estos contienen software malicioso o código que se ejecuta en un dispositivo de usuario.
+Spyware y adware - Estos son tipos de software que se instalan en el dispositivo de un usuario. El software recopila en secreto información sobre el usuario.
+Ataques de día cero - También llamados ataques de hora cero, se producen el primer día que se conoce una vulnerabilidad
+Amenazas de Atacantes - una persona malintencionada ataca dispositivos de usuario o recursos de red.
+Ataques por denegación de servicio - Estos ataques ralentizan o bloquean las aplicaciones y procesos en un dispositivo de red.
+Intercepción y robo de datos - Este ataque captura información privada de la red de una organización.
+Robo de identidad - Este ataque roba las credenciales de inicio de sesión de un usuario para acceder a datos privados.
+
+Soluciones de seguridad
+
+Estos son los componentes básicos de seguridad para una red doméstica o de oficina pequeña:
+
+Antivirus y antispyware - Estas aplicaciones ayudan a proteger los dispositivos finales para que no se infecten con software malicioso.
+Filtrado de Firewall - El filtrado de firewall bloquea el acceso no autorizado dentro y fuera de la red. Esto puede incluir un sistema de firewall ejecutado en un host que se implemente para impedir el acceso no autorizado al terminal o un servicio de filtrado básico en el router doméstico para impedir el acceso no autorizado del mundo exterior a la red.
+
+Por otra parte, la implementación de seguridad de la red en redes de las empresas normalmente consiste en la integración de numerosos componentes a la red para controlar y filtrar el tráfico. Lo ideal es que todos los componentes funcionen juntos, lo que minimiza la necesidad de mantenimiento y aumenta la seguridad. Las redes más grandes y las redes corporativas utilizan filtros antivirus, antispyware y firewall, pero también tienen otros requisitos de seguridad:
+
+Sistemas de firewall dedicados - Estos proporcionan capacidades de firewall más avanzadas que pueden filtrar grandes cantidades de tráfico con más granularidad.
+Listas de control de acceso (ACL) - Estos filtran aún más el acceso y el reenvío de tráfico en función de las direcciones IP y las aplicaciones.
+Sistemas de prevención de intrusiones (IPS) - Estos identifican amenazas de rápida propagación, como ataques de día cero o de hora cero.
+Redes Privadas Virtuales (VPN) - Estos proporcionan acceso seguro a una organización para trabajadores remotos.
