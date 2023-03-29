@@ -1,0 +1,143 @@
+¿Cuál de los siguientes es el nombre de todas las computadoras conectadas a una red que participan directamente en la comunicación de red?
+  - Host
+  
+Cuando los datos se codifican como pulsos de luz, ¿qué medios se utilizan para transmitir los datos?
+  - Cable de fibra optica
+  
+¿Cuáles dos dispositivos son dispositivos intermedios? (Elija dos opciones)
+- Router
+- Switch
+
+¿Qué conexión conecta físicamente el dispositivo final a la red?
+- NIC
+
+¿Qué conexiones son puertos especializados en un dispositivo de red que se conectan a redes individuales?
+- Interfaz
+
+¿Qué tipo de topología de red le permite ver qué dispositivos finales están conectados a qué dispositivos intermediarios y qué medios se utilizan?
+- Topologia logica
+
+¿Qué tipo de topología de red le permite ver la ubicación real de los dispositivos intermediarios y la instalación de cables?
+- Topologia fisica
+
+¿Qué infraestructura de red proporciona acceso a usuarios y dispositivos finales en un área geográfica pequeña, que generalmente es una red en un departamento de una empresa, un hogar o una pequeña empresa?
+
+- LAN
+
+¿Qué infraestructura de red podría usar una organización para proporcionar acceso seguro a las personas que trabajan para una organización diferente pero que requieren acceso a los datos de la organización?
+
+- Extranet
+
+¿Qué infraestructura de red proporciona acceso a otras redes en un área geográfica grande, que a menudo es propiedad y está administrada por un proveedor de servicios de telecomunicaciones?
+
+- WAN
+
+Cuando los diseñadores siguen los estándares y protocolos aceptados, ¿cuál de las cuatro características básicas de la arquitectura de red se logra?
+- Escalabilidad
+
+Confidencialidad, integridad y disponibilidad son requisitos de cuál de las cuatro características básicas de la arquitectura de red
+- Seguridad
+
+¿Con qué tipo de política, un router puede gestionar el flujo de datos y tráfico de voz, dando prioridad a las comunicaciones de voz si la red experimenta congestión?
+- QoS
+
+El hecho de que haya varias rutas que conducen a un destino se denomina redundancia. ¿Este es un ejemplo de qué característica de la arquitectura de red?
+- Tolerancia a fallas
+
+¿Qué característica es una buena herramienta de conferencias para usar con otras personas que se encuentran en otro lugar de tu ciudad o incluso en otro país?
+- Comunicaciones de video
+
+¿Qué característica describe el uso de herramientas personales para acceder a la información y comunicarse a través de una red empresarial o de campus?
+- BYOD
+
+¿Qué característica contiene opciones como Público, Privado, Personalizado e Híbrido?
+- Computacion en la nube
+
+¿Qué función se utiliza al conectar un dispositivo a la red mediante una toma de corriente?
+- Linea electrica
+
+¿Qué función usa la misma tecnología celular que un teléfono inteligente?
+- Banda ancha inalambrica.
+
+¿Qué ataque ralentiza o bloquea equipos y programas?
+- Denegacion de Servicios (DoS)
+
+¿Qué opción crea una conexión segura para trabajadores remotos?
+- VPN
+
+
+¿Qué opción bloquea el acceso no autorizado a su red?
+- Firewall
+
+¿Qué opción describe un ataque a la red que ocurre el primer día que se conoce una vulnerabilidad?
+- Dia cero o cero hora
+
+¿Qué opción describe el código malicioso que se ejecuta en dispositivos de usuario?
+- Virus, gusano o troyano
+
+
+Durante una inspección rutinaria, un técnico descubrió que el software instalado en una computadora estaba recopilando en secreto datos sobre sitios web visitados por los usuarios de la computadora.¿Qué tipo de amenaza está afectando a este equipo?
+
+- Spyware
+
+¿Con qué término se hace referencia a una red que proporciona acceso seguro a las oficinas corporativas por parte de los proveedores, clientes y colaboradores?
+- Extranet
+
+Una gran corporación ha modificado su red para permitir a los usuarios acceder a los recursos de la red desde sus portátiles personales y teléfonos inteligentes. ¿Qué tendencia de creación de redes describe esto?
+
+- Traiga su propio dispositivo
+
+¿Qué es un ISP?
+
+- Es una organizacion que permite que las personas y empresas se conecten a internet
+
+
+¿En qué escenario se recomendaría el uso de un WISP?
+
+- en una granja zona rural sin acceso por cable de banda ancha
+
+¿Qué característica de una red le permite expandirse rápidamente para admitir a nuevos usuarios y aplicaciones sin afectar el rendimiento del servicio que se les proporciona a los usuarios actuales?
+
+- Escalabilidad
+
+
+Una universidad construye una nueva residencia estudiantil en su campus. Los trabajadores cavan para instalar las nuevas tuberías de agua de la residencia. Uno de ellos accidentalmente daña el cable de fibra óptica que conecta dos de las residencias existentes al centro de datos del campus. A pesar de que se cortó el cable, los estudiantes de las residencias solo perciben una interrupción muy breve en los servicios de red. ¿Qué característica de la red se demuestra aquí?
+
+- Tolerancia a fallas
+
+
+¿Cuáles de las siguientes son dos características de una red escalable? (Escoja dos opciones).
+
+- Crece en tamaño sin afectar a los usuarios existentes
+- Es adecuada para los dispositivos modulares que permiten expansion
+
+¿Qué dispositivo realiza la función de determinar la ruta que deben tomar los mensajes a través de interredes?
+
+- un router
+
+
+¿Qué dos opciones de conexión a Internet no requieren que los cables físicos se ejecuten en el edificio? (Escoja dos opciones).
+- Red celular
+- Red satelital
+
+¿A qué tipo de red debe acceder un usuario doméstico para realizar compras en línea?
+
+- El internet
+
+
+¿Cómo cambia BYOD la forma en que las empresas implementan las redes?
+
+- BYOD brinda flexibilidad  con respecto a cuando y como los usuarios pueden acceder a los recursos de red
+
+Un empleado desea acceder a la red de la organización de manera remota y de la forma más segura posible. ¿Qué característica de la red le permitiría a un empleado acceder a la red de la empresa de manera remota y de la forma más segura?
+
+- VPN
+
+¿Qué es Internet?
+
+- Proporciona conexiones a traves de redes globales interconectadas
+
+¿Cuáles de las siguientes son dos funciones de los dispositivos finales en una red? (Escoja dos opciones).
+
+- Constituyen la interfaz entre los humanos y la red de comunicacion
+- Dan origen a los datos que fluyen por la red
